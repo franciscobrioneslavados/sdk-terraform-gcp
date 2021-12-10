@@ -30,6 +30,12 @@ NAME              LOCATION       MASTER_VERSION   MASTER_IP      MACHINE_TYPE  N
 learnk8s-cluster  us-central1-c  1.21.5-gke.1302  35.226.18.135  e2-medium     1.21.5-gke.1302  3          RUNNING
 ```
 
+### Conect to a cluster
+```
+gcloud container clusters get-credentials $(echo $CLUSTER_NAME) --zone $(echo $ZONE) --project $(echo $PROJECT_ID)
+```
+
+
 ### UPDATE Cluster (OPTIONAL)
 ```
 gcloud container clusters update $(echo $CLUSTER_NAME) \

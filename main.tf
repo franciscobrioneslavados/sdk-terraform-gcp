@@ -1,4 +1,5 @@
 provider "google" {
+  version = "~> 3.42.0"
 }
 
 module "gke_auth" {
