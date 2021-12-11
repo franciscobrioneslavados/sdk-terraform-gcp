@@ -1,0 +1,9 @@
+apiVersion: "v1"
+kind: "ConfigMap"
+metadata:
+  name: "nginx-1-config-3qio"
+  namespace: "default"
+  labels:
+    app: "nginx-1"
+data:
+  ENV_KEY: "env-value"
