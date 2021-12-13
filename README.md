@@ -24,4 +24,4 @@ export SQL_INSTANCE_PASSWORD=<SQL_INSTANCE_PASSWORD>
 
 ### Create a Cloud SQL instance [sql-readme](./sql/README.md)
   
-## Terraform see [terraform-readme](./terraform/README.md)
+### Terraform see [terraform-readme](./terraform/README.md)
