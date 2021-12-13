@@ -1,24 +1,25 @@
 variable "project" {
-  default     = "stately-avatar-334702"
+  default     = ""
   description = "The project ID to host the cluster in"
 }
 
 variable "region" {
   description = "The region to host the cluster in"
-  default     = "us-central1"
+  default     = ""
 }
 
 variable "zone" {
-  default = "us-central1-c"
+  description = "The zone to host the cluster in"
+  default = ""
 }
 
 variable "cluster" {
-  default     = "learn-k8s-cluster"
+  default     = ""
   description = "The name for the GKE cluster"
 }
 
 variable "node_pool" {
-  default     = "learn-k8s-node-pool"
+  default     = ""
   description = "The name for the node pool"
 }
 
