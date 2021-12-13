@@ -1,6 +1,6 @@
 
 ## Setup environment
-##### replace <NAME> and export
+##### replace <NAME> and export or create a sh file and run with ```source <file-name>.sh```
 ```
 export PROJECT_ID=<PROJECT_ID>
 export REGION=<REGION>
