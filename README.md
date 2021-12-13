@@ -15,6 +15,6 @@ export SQL_INSTANCE_PASSWORD=<SQL_INSTANCE_PASSWORD>
 
 ## Deployments and Services YML see [k8s-readme](./k8s/README.md)
 
-## Push Image on GCP Imagen Registry see [docker-readme][./docker/README.md]
+## Push Image on GCP Imagen Registry see [docker-readme](./docker/README.md)
 
-## Create a Cloud SQL instance [sql-readme][./sql/README.md]
+## Create a Cloud SQL instance [sql-readme](./sql/README.md)
