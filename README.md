@@ -7,6 +7,8 @@ export REGION=<REGION>
 export ZONE=<ZONE>
 export CLUSTER_NAME=<CLUSTER_NAME>
 export DOCKER_APP_NAME=<DOCKER_APP_NAME>
+export SQL_INSTANCE_NAME=<SQL_INSTANCE_NAME>
+export SQL_INSTANCE_PASSWORD=<SQL_INSTANCE_PASSWORD>
 ```
 
 ## Deploy cluster see [cluster-readme](./cluster/README.md)
@@ -15,3 +17,4 @@ export DOCKER_APP_NAME=<DOCKER_APP_NAME>
 
 ## Push Image on GCP Imagen Registry see [docker-readme][./docker/README.md]
 
+## Create a Cloud SQL instance [sql-readme][./sql/README.md]
