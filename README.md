@@ -24,16 +24,4 @@ export SQL_INSTANCE_PASSWORD=<SQL_INSTANCE_PASSWORD>
 
 ### Create a Cloud SQL instance [sql-readme](./sql/README.md)
   
-## Terraform 
-  
-### Install cli see [terraform-install](https://learn.hashicorp.com/tutorials/terraform/install-cli)
-### Prepare terraform: change the values on vars.tf
-### download a services account JSON from the google cloud see [services-account-docs](https://cloud.google.com/iam/docs/service-accounts)
-  
-```
-cd terraform
-terraform init
-terraform plan
-terraform apply --auto-approve
-```
-  
+## Terraform see (terraform-readme)[./terraform/README.md)
